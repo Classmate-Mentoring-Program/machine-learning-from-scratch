@@ -1,0 +1,24 @@
+# Ignorer les fichiers et dossiers générés par Python
+__pycache__/
+*.py[cod]
+
+# Ignorer les fichiers de configuration des environnements virtuels
+mlenv/
+
+# Ignorer les fichiers de logs
+*.log
+
+# Ignorer les fichiers de données
+*.csv
+*.json
+
+# Ignorer les fichiers de notebooks Jupyter
+*.ipynb_checkpoints/
+
+# Ignorer les fichiers de configuration des IDE
+.vscode/
+.idea/
+
+# Ignorer les fichiers de sortie des modèles
+*.h5
+*.pkl
